@@ -1,0 +1,18 @@
+Package: fndwords
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: c(
+    person("Aleksander", "Wieland", email = "aleks.w2002@gmail.com", role = c("aut", "cre")),
+           person("Tymoteusz", "Tomala", , email = "first.last@example.com", role = c("aut"))
+           )
+Description: Helps to find a word in crosswords.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
